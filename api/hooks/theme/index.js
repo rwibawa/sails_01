@@ -11,7 +11,7 @@ module.exports = function (sails) {
             // makes theme variable available in views
             res.locals.theme = sails.hooks.theme.getTheme(req);
           }
-          returnnext();
+          return next();
         }
       }
     },
