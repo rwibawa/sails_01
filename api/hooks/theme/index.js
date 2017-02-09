@@ -34,7 +34,7 @@ module.exports = function (sails) {
       if (hostname.indexOf('sleepy') > -1) {
         theme = 'burrito';
       }
-      
+
       return theme;
     }
   };
